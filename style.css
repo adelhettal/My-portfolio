@@ -253,31 +253,120 @@ footer .social-icons a{
 
 }
 
-@media(max-width:1023px){
-    header{
-        padding : 12px 20px ;
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px 20px; /* Adjust padding for smaller screens */
     }
 
-    .navigation a{
-        padding-left: 10px;
+    .logo {
+        padding-right: 20px; /* Adjust padding for smaller screens */
     }
 
-    .title{
-        font-size: 1.8em;
+    .navigation {
+        display: none; /* Hide navigation for smaller screens */
     }
 
-    .section{
-        padding: 80px 20px;
+    section {
+        padding: 50px 20px; /* Adjust padding for smaller screens */
     }
 
-    content{
-        flex-direction: column;
-        align-items: center;
+    .main {
+        background-attachment: scroll; /* Allow background scrolling on smaller screens */
+    }
+
+    .main h2 {
+        font-size: 1.2em; /* Adjust font size for smaller screens */
+    }
+
+    .main h2 span {
+        font-size: 1.8em; /* Adjust font size for smaller screens */
+    }
+
+    .main h3 {
+        font-size: 1.2em; /* Adjust font size for smaller screens */
+    }
+
+    .main-button {
+        font-size: 1em; /* Adjust font size for smaller screens */
+        padding: 0.75em; /* Adjust padding for smaller screens */
+        margin-bottom: 20px; /* Adjust margin for smaller screens */
+    }
+
+    .social-icons a {
+        font-size: 1.3em; /* Adjust font size for smaller screens */
+        padding-right: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .title {
+        font-size: 1.8em; /* Adjust font size for smaller screens */
+        margin-bottom: 20px; /* Adjust margin for smaller screens */
+    }
+
+    .card {
+        width: 100%; /* Make cards full-width on smaller screens */
+        margin: 10px 0; /* Adjust margin for smaller screens */
+    }
+
+    .icon {
+        font-size: 6em; /* Adjust font size for smaller screens */
     }
 }
 
-@media(max-width:641px){
-    body{
-        font-size:12px
+@media screen and (max-width: 480px) {
+    header {
+        padding: 10px 10px; /* Adjust padding for small screens */
+    }
+
+    .logo {
+        padding-right: 10px; /* Adjust padding for small screens */
+    }
+
+    .navigation {
+        display: none; /* Hide navigation for small screens */
+    }
+
+    section {
+        padding: 30px 15px; /* Adjust padding for small screens */
+    }
+
+    .main {
+        background-attachment: scroll; /* Allow background scrolling on small screens */
+    }
+
+    .main h2 {
+        font-size: 1.1em; /* Adjust font size for small screens */
+    }
+
+    .main h2 span {
+        font-size: 1.6em; /* Adjust font size for small screens */
+    }
+
+    .main h3 {
+        font-size: 1.1em; /* Adjust font size for small screens */
+    }
+
+    .main-button {
+        font-size: 0.9em; /* Adjust font size for small screens */
+        padding: 0.6em; /* Adjust padding for small screens */
+        margin-bottom: 15px; /* Adjust margin for small screens */
+    }
+
+    .social-icons a {
+        font-size: 1.2em; /* Adjust font size for small screens */
+        padding-right: 10px; /* Adjust padding for small screens */
+    }
+
+    .title {
+        font-size: 1.6em; /* Adjust font size for small screens */
+        margin-bottom: 15px; /* Adjust margin for small screens */
+    }
+
+    .card {
+        width: 100%; /* Make cards full-width on small screens */
+        margin: 10px 0; /* Adjust margin for small screens */
+    }
+
+    .icon {
+        font-size: 5em; /* Adjust font size for small screens */
     }
 }
