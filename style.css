@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Montserrat:wght@400;700&family=Playfair+Display:ital,wght@1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    padding: 10px 17px;
+}
+
+
+
+.logo{
+    text-decoration: none;
+    color:  #2b2d2f;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em; /* 1em= default body font size*/
+    padding-right: 500px;
+    
+}
+header img{
+    width: 120px;
+    height: 75px;
+    object-fit: contain;
+    margin-left: 160px;
+}
+
+.logo:hover{
+    color: #8C5D42;
+}
+
+.navigation a{
+    color:#2b2d2f;
+    text-decoration:none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+    position: relative;
+   
+}
+
+.navigation a:after{
+    content: "";
+    position: absolute;
+    background-color: #05401A;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+    margin-left: 25px;
+}
+.navigation a:hover{
+    color: black;
+}
+.navigation a:hover:after{
+    width: 90%;
+}
+
+
+
+
+section{
+    padding: 75px 200px ;
+    
+  
+}
+
+
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(/images/workplace-with-headphones-laptop-evening-copy-space.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /*to keep the background fixed while scrolling*/
+}
+
+.main h2{
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #edebe8;
+    font-size: 2.22em;
+    font-weight: 600;
+    
+}
+
+.main h3{
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.buttons-section{
+    display: flex;
+
+}
+.main-button{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: .7s ease;    
+    margin-right: 15px;
+}
+
+.main-button:hover{
+    background-color: #8C5D42;
+    color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+  
+}
+
+.social-icons a{
+    color: white;
+    font-size: 1.7em;
+    padding-right: 30px;
+
+}
+
+
+.social-icons :hover{
+
+    transform: scale(1.1);
+    cursor: pointer;
+    color:  white;
+
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.achievements{
+    background-color: #8C5D42;
+}
+
+.achievements .content{
+    margin-top: 30px;
+}
+
+.more-details{
+    text-decoration: none;
+    color: #8C5D42;
+    font-weight: 500;
+}
+
+.more-details:hover{
+    color:#8C5D42;
+    text-decoration: underline;
+}
+
+.project-card{
+    background-color: white;
+    border: 1px solid white;
+    min-height: 16em;
+    width: 23em;
+    overflow: hidden;
+    border-radius :10px; 
+    margin:20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.project-image img{
+width: 100%;
+}
+
+.project-info{
+padding: 1em;
+text-align: center;
+}
+
+.project-title{
+    font-size: 1.2em;
+    color:  #8C5D42;
+    font-weight: 800;
+   
+}
+
+.project-description{
+    margin-top: 7px;
+}
+
+
+.card{
+    background-color: white;
+    width: 21.25em; 
+    border-radius: 10px;
+    padding: 25px;
+    margin:15px;
+    transition: .7s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    color: #8E6343;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+.info h3{
+    color:#8E6343;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+
+.projects p{
+    text-align: center;
+}
+
+
+.projects img{
+    height: 70px;
+    width: 200px;
+    object-fit: contain;
+    margin-top: 10px;
+}
+
+
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cards-contact .icon{
+    font-size: 4.5em;
+
+}
+
+.cards-contact h3{
+    color: black;
+
+}
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 2em;
+    justify-content: space-between;
+}
+
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span{
+    color: #b1825b;
+}
+
+footer .social-icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0 ; /*clockwise direction*/
+
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        padding: 10px; /* Adjust padding for small screens */
+    }
+
+    .logo {
+        padding-right: 20px; /* Adjust padding for small screens */
+    }
+
+    header img {
+        margin-left: 10px; /* Adjust margin for small screens */
+    }
+
+    .navigation a {
+        padding-left: 10px; /* Adjust padding for small screens */
+    }
+
+    .main h2 {
+        font-size: 1.2em; /* Adjust font size for small screens */
+    }
+
+    .main h2 span {
+        font-size: 1.8em; /* Adjust font size for small screens */
+    }
+
+    .main h3 {
+        font-size: 1.1em; /* Adjust font size for small screens */
+        margin-bottom: 15px; /* Adjust margin for small screens */
+    }
+
+    .main-button {
+        font-size: 1em; /* Adjust font size for small screens */
+        padding: 0.75em; /* Adjust padding for small screens */
+        margin-bottom: 15px; /* Adjust margin for small screens */
+    }
+
+    .social-icons a {
+        font-size: 1.3em; /* Adjust font size for small screens */
+        padding-right: 15px; /* Adjust padding for small screens */
+    }
+
+    .title {
+        font-size: 1.8em; /* Adjust font size for small screens */
+        margin-bottom: 20px; /* Adjust margin for small screens */
+    }
+
+    .card {
+        width: 100%; /* Make cards full-width on small screens */
+        margin: 10px 0; /* Adjust margin for small screens */
+    }
+
+    .icon {
+        font-size: 5em; /* Adjust font size for small screens */
+    }
+
+    footer {
+        padding: 1em; /* Adjust padding for small screens */
+    }
+
+    .footer-title {
+        font-size: 1.1em; /* Adjust font size for small screens */
+    }
+}
+
+/* Apply responsive styles for larger screens (tablets and desktops) */
+@media screen and (min-width: 768px) {
+    header {
+        padding: 10px 20px; /* Adjust padding for larger screens */
+    }
+
+    .logo {
+        padding-right: 500px; /* Adjust padding for larger screens */
+    }
+
+    header img {
+        margin-left: 160px; /* Adjust margin for larger screens */
+    }
+
+    .navigation a {
+        padding-left: 30px; /* Reset padding for larger screens */
+    }
+
+    .main h3 {
+        margin-bottom: 30px; /* Reset margin for larger screens */
+    }
+
+    .main-button {
+        margin-bottom: 40px; /* Reset margin for larger screens */
+    }
+
+    .social-icons a {
+        padding-right: 30px; /* Reset padding for larger screens */
+    }
+
+    .title {
+        margin-bottom: 30px; /* Reset margin for larger screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 10px; /* Adjust padding for very small screens */
+    }
+
+    .logo {
+        padding-right: 10px; /* Adjust padding for very small screens */
+    }
+
+    header img {
+        margin-left: 10px; /* Adjust margin for very small screens */
+    }
+
+    .navigation a {
+        padding-left: 15px; /* Adjust padding for very small screens */
+    }
+
+    .main h2 {
+        font-size: 1.1em; /* Adjust font size for very small screens */
+    }
+
+    .main h2 span {
+        font-size: 1.6em; /* Adjust font size for very small screens */
+    }
+
+    .main h3 {
+        font-size: 1em; /* Adjust font size for very small screens */
+        margin-bottom: 10px; /* Adjust margin for very small screens */
+    }
+
+    .main-button {
+        font-size: 0.9em; /* Adjust font size for very small screens */
+        padding: 0.6em; /* Adjust padding for very small screens */
+        margin-bottom: 10px; /* Adjust margin for very small screens */
+    }
+
+    .social-icons a {
+        font-size: 1.3em; /* Adjust font size for very small screens */
+        padding-right: 10px; /* Adjust padding for very small screens */
+    }
+
+    .title {
+        font-size: 1.6em; /* Adjust font size for very small screens */
+        margin-bottom: 15px; /* Adjust margin for very small screens */
+    }
+
+    .card {
+        width: 100%; /* Make cards full-width on very small screens */
+        margin: 10px 0; /* Adjust margin for very small screens */
+    }
+
+    .icon {
+        font-size: 4.5em; /* Adjust font size for very small screens */
+    }
+
+    footer {
+        padding: 1em; /* Adjust padding for very small screens */
+    }
+
+    .footer-title {
+        font-size: 1.1em; /* Adjust font size for very small screens */
+    }
+}
