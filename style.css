@@ -82,7 +82,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(/images/workplace-with-headphones-laptop-evening-copy-space.jpg);
+    background: url(images/workplace-with-headphones-laptop-evening-copy-space.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /*to keep the background fixed while scrolling*/
