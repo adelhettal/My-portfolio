@@ -66,13 +66,8 @@ header img{
     width: 76%;
 }
 
-
-
-
 section{
-    padding: 75px 200px ;
-    
-  
+    padding: 75px 200px ; 
 }
 
 
@@ -131,11 +126,10 @@ section{
 }
 
 .main-button:hover{
-    background-color: #b4bec6;
+    background-color: #8C5D42;
     color: white;
     transform: scale(1.1);
     cursor: pointer;
-    border: white solid 2px;
 }
 
 .social-icons a{
