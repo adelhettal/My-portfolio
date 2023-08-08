@@ -16,12 +16,7 @@ header{
     z-index: 999;
     display: flex;
     align-items: center;
-    
     padding: 10px 175px;
-}
-
-.brand{
-    
 }
 
 .logo{
@@ -29,7 +24,7 @@ header{
     color:  #2b2d2f;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 1.8em; /* 1em= default body font size*/
+    font-size: 1.8em; /* 1em= default body font size 16px*/
     padding-right: 700px;
     
 }
