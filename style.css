@@ -54,7 +54,7 @@ header img{
 .navigation a:after{
     content: "";
     position: absolute;
-    background-color: #05401A;
+    background-color: #8C5D42;
     height: 3px;
     width: 0;
     left: 0;
