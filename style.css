@@ -214,6 +214,11 @@ section{
 width: 100%;
 }
 
+.margin-pic{
+    margin-top: 20px;
+}
+
+
 .project-info{
 padding: 1em;
 text-align: center;
