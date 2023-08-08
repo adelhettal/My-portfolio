@@ -224,6 +224,12 @@ padding: 1em;
 text-align: center;
 }
 
+.project-info-margin{
+padding: 1em;
+text-align: center;
+margin-top:5px;
+}
+
 .project-title{
     font-size: 1.2em;
     color:  #8C5D42;
