@@ -298,6 +298,14 @@ text-align: center;
 
 }
 
+.container-contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .cards-contact h3{
     color: black;
 
@@ -404,6 +412,7 @@ label{
 .contact-right{
     flex-basis: 60%;
     padding: 40px 60px;
+     width: 700px;
     
 }
 
