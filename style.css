@@ -303,34 +303,6 @@ text-align: center;
 
 }
 
-
-
-
-footer{
-    background-color: black;
-    color: white;
-    display: flex;
-    padding: 2em;
-    justify-content: space-between;
-}
-
-.footer-title{
-    font-size: 1.3em;
-    font-weight: 600;
-}
-
-.footer-title span{
-    color: #b1825b;
-}
-
-footer .social-icons a{
-    font-size: 1em;
-    padding: 0 12px 0 0 ; /*clockwise direction*/
-
-}
-
-
-
 .contact-box{
     background-color: white;
     display: flex;
@@ -386,6 +358,7 @@ textarea{
 
 textarea::placeholder{
     color: black;
+    font-size: 1.2em;
 }
 
 label{
@@ -452,3 +425,32 @@ hr{
     margin-left: 20px;
     margin-top: 20px;
 }
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 2em;
+    justify-content: space-between;
+}
+
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span{
+    color: #b1825b;
+}
+
+footer .social-icons a{
+    font-size: 1em;
+    padding: 0 12px 0 0 ; /*clockwise direction*/
+
+}
+
+
+
