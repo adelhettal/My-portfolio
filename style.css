@@ -249,6 +249,7 @@ text-align: center;
     padding: 25px;
     margin:15px;
     transition: .7s ease;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
 }
 
 .card:hover{
