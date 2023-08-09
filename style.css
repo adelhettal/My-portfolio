@@ -310,17 +310,14 @@ text-align: center;
     margin-left: 60px;
 }
 
-.contact-left{
-    flex-basis: 60%;
-    padding: 40px 60px;
-}
+
 
 .contact-left{
     flex-basis: 60%;
-    padding: 40px;
+    padding: 40px 60px;
     background-color: white;
     color:#b1825b;
-    margin-left:100px;
+    margin-left:70px;
 }
 
 .input-row{
