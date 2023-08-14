@@ -63,7 +63,7 @@ header img{
     margin-left: 25px;
 }
 .navigation a:hover{
-    color: black;
+    color: #8C5D42;
 }
 .navigation a:hover:after{
     width: 90%;
