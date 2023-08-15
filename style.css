@@ -492,6 +492,23 @@ hr{
         font-size: 90%;
     }
 
+    .navigation a:after{
+        content: "";
+        position: absolute;
+        background-color: #8C5D42;
+        height: 3px;
+        width: 0;
+        left: -9px;
+        bottom: -10px;
+        transition: 0.3s;
+        margin-left: 25px;
+    }
+    
+    .navigation a:hover:after{
+        width: 85%;
+    }
+    
+
     .main-button{
         display: flex;
         justify-content: center;
