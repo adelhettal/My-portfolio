@@ -677,13 +677,15 @@ footer .social-icons {
 @media (max-width: 768px){
 
 
+    
     .main h2  {
-        font-size: 1rem;
+        font-size: 0.85rem;
     }
 
     .main h3 {
-        font-size: 90%;
+        font-size: 80%;
     }
+
 
     .main-button{
         display: flex;
