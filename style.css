@@ -482,7 +482,7 @@ hr{
 } */
 
 /* Tablets  */
-@media (max-width: 1500px) and (min-width: 768px) {
+@media (max-width: 1400px) and (min-width: 768px) {
 
     .main h2  {
         font-size: 1rem;
