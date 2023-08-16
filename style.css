@@ -902,8 +902,6 @@ footer .social-icons {
     }
    
 
-
-
     .contact-right{
         margin-right: 0px;
 
@@ -911,6 +909,7 @@ footer .social-icons {
 
     .contact-right h3{
         padding-left: 0px;
+        font-size: 1.3rem;
     }
 
     .main-button span {
@@ -921,6 +920,9 @@ footer .social-icons {
         margin-right: 5px;
     }
 
+     .contact-left span{
+        font-size: 1.4rem;
+    }
 
 
 }
