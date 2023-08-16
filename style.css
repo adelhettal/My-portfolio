@@ -545,7 +545,8 @@ header img{
 
     .social-icons{
         display: flex;
-        justify-content: center;
+       /* justify-content: center; */
+        margin-left: 7px;
         margin-top: 10px;
     }
     
