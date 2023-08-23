@@ -118,10 +118,9 @@ section{
     animation: ani 10s infinite;
 }
     
-    text-t@keyframes ani{
+@keyframes ani{
     0%,100%{
         top: 0;
-
     }
 
     20%{
@@ -152,18 +151,7 @@ section{
     90%{
         top: -150px;
     }
-}ransform: uppercase;
-    overflow: hidden;
-    font-size: 40px;
 }
-
-.inner-headings span{
-    position: relative;
-    color: white;
-    animation: ani 10s infinite;
-}
-
-
 
 .main h2{
     color: white;
