@@ -92,6 +92,7 @@ section{
     background-attachment: fixed; /*to keep the background fixed while scrolling , it gives like a 3D effect*/
 }
 
+
 .outer-headings{
   
     display: flex;
@@ -117,10 +118,11 @@ section{
     color: white;
     animation: ani 10s infinite;
 }
-    
+
 @keyframes ani{
     0%,100%{
         top: 0;
+
     }
 
     20%{
