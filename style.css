@@ -918,6 +918,15 @@ footer .social-icons {
     margin-bottom: 7px;
 }
 
+.inner-headings{
+    /* border: 1px solid #ddd; */
+    /* height: 50px;
+    line-height: 50px;
+    text-transform: uppercase;
+    overflow: hidden; */
+    font-size: 20px;
+}
+
 }
 
 /* very small screens */
@@ -928,7 +937,8 @@ footer .social-icons {
     }
 
     .main h3{
-        font-size: 0.7rem;
+        font-size: 0.73rem;
+        margin-top: 0px;
     }
 
     .projects p{
@@ -963,8 +973,14 @@ footer .social-icons {
     .contact-right:nth-child(2){
         padding-right:40px;
     }
-   
 
+    .social-icons{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+    
     .contact-right{
         margin-right: 0px;
 
@@ -983,9 +999,23 @@ footer .social-icons {
         margin-right: 5px;
     }
 
-     .contact-left span{
+    .contact-left span{
         font-size: 1.4rem;
     }
+
+    .buttons-section a{
+        padding: 10px 7px;
+    }
+
+    .inner-headings{
+        /* border: 1px solid #ddd; */
+        /* height: 50px;
+        line-height: 50px;
+        text-transform: uppercase;
+        overflow: hidden; */
+        font-size: 19px;
+    }
+}
 
 
 }
