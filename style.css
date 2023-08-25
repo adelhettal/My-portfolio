@@ -930,7 +930,6 @@ footer .social-icons {
 }
 
 /* very small screens */
-
 @media (max-width:380px){
     .main h2 {
         font-size: 0.7rem;
@@ -1013,10 +1012,7 @@ footer .social-icons {
         line-height: 50px;
         text-transform: uppercase;
         overflow: hidden; */
-        font-size: 16px;
+        font-size: 18px;
     }
-}
-
-
 }
 
