@@ -1015,5 +1015,13 @@ footer .social-icons {
         overflow: hidden; */
         font-size: 18px;
     }
+
+    
+    footer .social-icons {
+        display: flex;
+        align-items: center;
+        margin-bottom: 7px;
+        font-size: 13px;
+    }
 }
 
