@@ -115,8 +115,8 @@ section{
 
 .inner-headings span{
     position: relative;
-    color: #f7ff01;
-    animation: ani 10s infinite;
+    color: #efefef;
+    animation: ani 7s infinite;
 }
 
 @keyframes ani{
