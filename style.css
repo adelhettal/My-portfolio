@@ -1023,5 +1023,10 @@ footer .social-icons {
         margin-bottom: 7px;
         font-size: 13px;
     }
+
+     footer{
+        font-size: 7px;
+    }
+
 }
 
